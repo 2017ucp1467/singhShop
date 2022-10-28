@@ -124,7 +124,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.environ.get('ecom_db_name'),
         'USER': os.environ.get('ecom_db_user'),
         'PASSWORD':os.environ.get('ecom_db_password'),
