@@ -129,6 +129,7 @@ DATABASES = {
         'USER': os.environ.get('ecom_db_user'),
         'PASSWORD':os.environ.get('ecom_db_password'),
         'HOST': os.environ.get('ecom_db_host'),
+        'PORT':'5432'
     }
 }
 
